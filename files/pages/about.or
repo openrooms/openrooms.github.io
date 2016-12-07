@@ -1,0 +1,11 @@
+<h1 class="welcome">About</h1>
+        <div class="cards">
+            <div class="card card-2">
+            
+                <div class="post">This group started off with a small amount of people. We were all interested in the same thing the dead man switch.</div>
+                
+                <div onclick="join();" style="margin:auto;" id="join">Join</div>
+            </div>
+            
+            
+        </div>

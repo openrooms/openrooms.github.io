@@ -1,0 +1,24 @@
+        <h1 class="welcome">Rules</h1>
+        <div class="cards">
+            <div class="card card-2">
+            
+                <div class="post">
+                        
+                    1: NO Spamming<br>
+                    2: Memes are only to be posted in the <span class="purple">#memes_randomness_quite_spicy</span> channel<br>
+                    3: Eggplants other than in <span class="purple">#memes_randomness_quite_spicy</span> are a bannable offence.<br>
+                    5: No disrespecting anyone.<br>
+                    6: 3 strikes you will be kicked, then a ban.<br>
+                    7: Don't be a negative nancy.<br>
+                    8: No pornography or anything relating to it or else a permanent ban.<br>
+                    9: When you get Banned you get sent to the <span class="purple">#banned</span> chat where you can talk to other <span class="purple">#banned</span> users.
+        
+                
+                
+                </div>
+                
+                <div onclick="join();" style="margin:auto;" id="join">Join</div>
+            </div>
+            
+            
+        </div>

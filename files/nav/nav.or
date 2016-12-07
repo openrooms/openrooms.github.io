@@ -1,0 +1,6 @@
+        <a id="n-link" onclick="home();"  >Home</a>
+        <a id="n-link" onclick="about();"  >About</a>
+        <a id="n-link" onclick="archive();"  >Archive</a>
+        <a id="n-link" onclick="staff();"  >Staff</a>
+        <a id="n-link" onclick="rules();"  >Rules</a>
+        <a id="n-link" onclick="join();"  >Join</a>

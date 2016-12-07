@@ -1,0 +1,23 @@
+    <h1 class="welcome">Welcome to Open Rooms</h1>
+        <p class="shortabout">Below you will fined out what we have been doing in the past.</p>
+        <div class="cards">
+            <div class="card card-2">
+            <div class="poster"><i class="material-icons">account_circle</i>Bren00x</div>
+                <div class="post"> As of Dec 5 8:30 EST We are open to public Click Join to join!</div>
+                
+                <div onclick="join();" style="margin:auto;" id="join">Join</div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="cards">
+            <div class="card card-2">
+            <div class="poster"><i class="material-icons">account_circle</i>Bren00x</div>
+                <div class="post"> As of Dec 5 8:29 <br> Older archives can be found at the archive page</div>
+                
+                <div onclick="archive();" style="margin:auto;" id="join">Archive</div>
+            </div>
+            
+            
+        </div>

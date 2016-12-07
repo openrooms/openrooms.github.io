@@ -1,0 +1,57 @@
+
+<h1 class="welcome">Staff</h1>
+        <div class="cards">
+            <div class="card card-2">
+            
+                <div class="post">
+                <div class="black">Black (Top Level):</div>
+                    <span>Uksanxo</span><br><br>
+                    
+                <div class="yellow">Owner:</div>
+                    <span>Alextehsmartkid</span><br><br>
+                    
+                <div class="red">Staff Director:</div>
+                    <span>(None Assigned Yet)</span><br><br>
+                    
+                <div class="brown">Administrator:</div>
+                    <span>Observe</span><br>
+                    <span class="black">Uksanxo</span>
+                    <br><br>
+                    
+                <div class="brown">Moderator Director:</div>
+                    <span>Chist</span>
+                    <br><br>
+                    
+                <div class="brown">Moderator:</div>
+                    <span>Bren00x</span><br>
+                    <span>falter66</span><br>
+                    <span>HelpdatboiiHERO</span><br>
+                    <span>Khat || PeterFoxSNS</span><br>
+                    <span>This Guy</span><br>
+                    <span class="black">Uksanxo</span>
+                    <br><br>
+                    
+                <div class="brown">Helper Director:</div>
+                    <span>Nachosuperxs</span><br>
+                    <span class="black">Uksanxo</span>
+                    <br><br>
+                    
+                <div class="brown">Helper:</div>
+                    <span>GamerConor965</span><br>
+                    <span>i am toast, deal with it</span><br>
+                    <span>LuckyThinking</span><br>
+                    <span class="black">Uksanxo</span>
+                    <br><br>
+                    
+                <div class="purple">Purple:</div>
+                    <span>None</span>
+                    <br><br>
+                    
+                
+                </div>
+                
+                <div onclick="join();" style="margin:auto;" id="join">Join</div><br>
+            </div>
+            
+            
+        </div>

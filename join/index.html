@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Join - Open Rooms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/files/logo/favicon.png"/>
+        <link rel="stylesheet" href="files/css/main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta property="og:image" content="/files/logo/favicon.png" />
+        <meta name="description" content="Come join our cool Open Rooms Discord Group!!!">
+        <style>
+            html {
+                font-family: 'Roboto', sans-serif;
+                overflow: hidden;
+                background-color: #272626;
+            }
+            
+            body {
+                margin: 0;
+                    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+            }
+            
+            #mg {
+                background-image:url(https://www.planwallpaper.com/static/images/kartandtinki1_photo-wallpapers_02.jpg); 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-color: #606060;
+                display:none; 
+                position: fixed;
+                width: 100vw;
+                height: 100vh;
+                z-index: -88888;
+            }
+            
+            #joinbox {
+                width: 300px;
+                height: 200px;
+                background-color: #f2f2f2;
+                border-radius: 15px;
+            /* This is the key to vertical centering */
+    margin:auto auto;
+    display: table; /* unless you want to declare a height */
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+            }
+            
+            #join{
+    padding: 10px;
+    background-color: #2ecc71;
+    width: 60px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+        </style>
+    </head>
+<body>
+   <div id="mg"></div>
+    
+    
+    <div id="joinbox">
+    <img src="/files/logo/Logo.png" onclick="home();" width="150px;"><br><br>
+        <div id="warning" style="text-align:center;"> PLEASE READ ALL THE RULES <a href="/rules">HERE</a></div><br><br>
+    <div onclick="join();" style="margin:auto;" id="join">Join</div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    
+    var elem   = $('#mg'),
+    bgImg  = elem.css('background-image'),
+    imgUrl = bgImg.indexOf('"')!=-1 ? 
+             bgImg.replace('url("','').replace('")','') : 
+             bgImg.replace('url(','').replace(')',''),
+    nwImg = new Image();
+
+nwImg.src = imgUrl;
+
+nwImg.onload = function() {
+    elem.fadeIn('fast');
+}
+
+nwImg.onerror = function() {
+    alert('Error: Image Not loading. If you see this error please contact one of the staff members.');
+}
+    </script> 
+</body>
+</html>

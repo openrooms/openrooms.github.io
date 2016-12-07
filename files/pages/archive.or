@@ -1,0 +1,11 @@
+<h1 class="welcome">Archives</h1>
+        <div class="cards">
+            <div class="card card-2">
+            
+                <div class="post">Hi this is our old archive (click archive)</div>
+                
+                <div onclick="window.open('https://thimbleprojects.org/bren00x/145233/','_blank');" style="margin:auto;" id="join">Go to Archive</div>
+            </div>
+            
+            
+        </div>
