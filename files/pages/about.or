@@ -2,7 +2,7 @@
         <div class="cards">
             <div class="card card-2">
             
-                <div class="post">This group started off with a small amount of people. We were all interested in the same thing the dead man switch.</div>
+                <div class="post">This chat used to be an area for decrypting a message sent to us by a YouTuber in despair, but now that it's over, we use it to talk to each other about current events and what's going on in our lives! The community is beautiful and the staff is kind, the chat overall is great!</div>
                 
                 <div onclick="join();" style="margin:auto;" id="join">Join</div>
             </div>
